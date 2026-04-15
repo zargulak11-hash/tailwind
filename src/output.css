@@ -13,6 +13,7 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-normal: 400;
+    --font-weight-medium: 500;
     --font-weight-bold: 700;
     --leading-tight: 1.25;
     --radius-2xl: 1rem;
@@ -185,6 +186,9 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
   }
@@ -194,11 +198,26 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-22 {
+    margin-top: calc(var(--spacing) * 22);
+  }
+  .mt-25 {
+    margin-top: calc(var(--spacing) * 25);
+  }
+  .mt-27 {
+    margin-top: calc(var(--spacing) * 27);
+  }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
   .mt-100 {
     margin-top: calc(var(--spacing) * 100);
   }
   .mt-\[60px\] {
     margin-top: 60px;
+  }
+  .mt-\[100px\] {
+    margin-top: 100px;
   }
   .flex {
     display: flex;
@@ -280,6 +299,9 @@
   }
   .items-center {
     align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
@@ -482,13 +504,24 @@
     --tw-leading: var(--leading-tight);
     line-height: var(--leading-tight);
   }
+  .font-\[400p\] {
+    --tw-font-weight: 400p;
+    font-weight: 400p;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
+  }
+  .text-\[\#5454D4\] {
+    color: #5454D4;
   }
   .text-\[\#19191B\] {
     color: #19191B;
